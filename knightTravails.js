@@ -48,7 +48,7 @@ function knight([x,y], [a, b]){
         node = queue.shift()
     }
     
-    // SHOW THE PATHS AND MINIMUM MOVES TAKES
+    // SHOW THE PATHS AND MINIMUM MOVES TAKEN
     
     console.log(`Moves Taken To Reach The Path : ${node.end.length - 1}`)
     console.log(`The Path Taken : `)
